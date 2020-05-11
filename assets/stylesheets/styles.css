@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: #2f303a;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0 2.5em;
+    margin: 0 auto;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 100px;
+}
+
+footer {
+    height: 70px;
+    background-color: #202027;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+.brand-logo span {
+    margin-left: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 0 1em;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #adadad
+}
+
+.title {
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 1.25em;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.btn {
+    background-color: #2267ff;
+    padding: 0.5em 1.5em;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #0260c0;
+}
+
+.flare {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: rgba(52, 87, 188, 0.1);
+    z-index: -1;
+}

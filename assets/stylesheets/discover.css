@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.main .main-cta {
+    align-self: center;
+    margin: 0 1em;
+}
+
+.main .cover-img {
+    max-height: 70vh;
+    margin: 1em;
+    margin-top: 0;
+}
