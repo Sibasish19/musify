@@ -4,11 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="/assets/stylesheets/styles.css" />
-		<link rel="stylesheet" href="/assets/stylesheets/discover.css" />
+		<link rel="stylesheet" href="/assets/stylesheets/join.css" />
 		<title>Musify - Join</title>
 	</head>
 	<body class="full-height-grow">
-		<div class="container">
+		<div class="container full-height-grow">
 			<header>
 				<a href="/" class="brand-logo">
 					<img
@@ -30,21 +30,24 @@
 				</nav>
 			</header>
 			<section class="main">
-				<div class="main-cta">
-					<h1 class="title">Join now, for FREE!</h1>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Debitis consequuntur dolorum ex aperiam dolores aut
-						similique, laboriosam iure dolore incidunt quas
-						exercitationem vero explicabo optio quia cumque ducimus,
-						accusamus nemo!
-					</p>
-				</div>
-				<img
-					src="/assets/images/covers.jpg"
-					alt="cover-image"
-					class="cover-img"
-				/>
+				<h1>Join the <span>fun.</span></h1>
+				<form>
+					<div class="input-group">
+						<label for="name">Name:</label>
+						<input type="text" id="name" />
+					</div>
+					<div class="input-group">
+						<label for="email">Email:</label>
+						<input type="email" id="email" />
+					</div>
+					<div class="input-group">
+						<label for="password">Password:</label>
+						<input type="password" id="password" />
+					</div>
+					<div class="input-group">
+						<button type="submit" class="btn">Join Now</button>
+					</div>
+				</form>
 			</section>
 		</div>
 		<footer>
