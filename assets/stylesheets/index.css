@@ -14,7 +14,7 @@
 }
 
 .img-wrapper .main-img {
-    background: url('./assets/images/landing-page-girl.png');
+    background: url('../images/landing-page-girl.png');
     flex-grow: 1;
     min-width: 30vw;
     max-height: 70vh;
